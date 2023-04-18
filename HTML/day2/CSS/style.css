@@ -1,0 +1,66 @@
+/* my first css */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f1f6f8;
+}
+img {
+    border:10px solid #027373;
+}
+h1{
+    border:5px dotted pink;
+    background-color: white;
+    text-align: center;
+}
+blockquote{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 3rem;
+    font-style: italic;
+    text-align: center;
+    background-image: url(http://placekitten.com/200/200);
+    color: white
+}
+cite{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.bigbold {
+    font-size: 1.3rem;
+    font-weight: bold;
+
+}
+p{
+    line-height: 2rem;
+    color:#012E40 ;
+}
+ul a:link{
+    font-weight:bold;
+    text-decoration:none;
+    color:lightblue;
+    font-size:2rem;
+}
+ol{
+    color: green;
+}
+h2,h3{
+    color:#026773;
+    font-weight:bold;
+}
+#myid{
+    color: #591C21;
+    font-weight:bold;
+}
+
+a:visited{
+    color:#3CA6A6;
+    font-size:2rem;
+    font-weight:normal;
+}
+a:hover{
+    color:#026773;
+    text-decoration: underline;
+    background-color: #012E40;
+}
+a.Harvard:link{
+    color:maroon;
+}
